@@ -1,69 +1,12 @@
-/* ==== Base Reset ==== */
-* {
+/* base.css */
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-/* ==== Typography ==== */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
   color: #333;
-  background-color: #ffffff;
 }
 
-/* Headings */
-h1, h2, h3 {
-  color: #222;
-  margin-bottom: 0.5em;
-}
-
-/* Paragraphs */
-p {
-  margin-bottom: 1em;
-}
-
-/* Links */
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1em 0;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  background-color: #f4f4f4;
-}
-
-/* Lists */
-ul {
-  list-style-type: none;
-}
-
-li {
-  padding: 0.5em 0;
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
 }
