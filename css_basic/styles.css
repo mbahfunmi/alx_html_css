@@ -1,0 +1,133 @@
+/* Reset and basic setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styling */
+header {
+  background-color: #444;
+  color: white;
+  padding: 1rem;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+header li {
+  display: inline;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Logo style */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffcc00; /* Yellowish logo */
+}
+
+/* Main layout */
+main {
+  display: flex;
+  flex: 1;
+}
+
+/* Article styling */
+article {
+  flex: 2;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+article h1, article h2, article h3 {
+  color: #333;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+/* Image styling */
+article img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #0077cc;
+  color: white;
+}
+
+/* Aside styling */
+aside {
+  flex: 1;
+  background-color: #e0e0e0;
+  padding: 1rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header li {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
