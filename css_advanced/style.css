@@ -6,13 +6,8 @@
 }
 
 body {
-    /* Font imports - You need to add these to your HTML <head> or at the top of your CSS */
-    /* Example:
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-    */
-    font-family: 'Open Sans', sans-serif; /* Your chosen font */
-    color: #fff; /* Default text color for dark background */
+    
+    color: #ffffff; /* Default text color for dark background */
     background-color: #1a1a1a; /* Dark background */
     line-height: 1.6;
     font-size: 100%; /* This is usually fine, but ensure other font sizes are relative */
@@ -20,7 +15,7 @@ body {
 
 .container {
     max-width: 1100px; /* Adjust as needed */
-    margin: 0 auto;
+    margin-left:  auto;
     padding: 0 20px;
 }
 
@@ -36,7 +31,7 @@ ul {
 /* Navbar */
 .navbar {
     background: transparent;
-    padding: 20px 0;
+    padding: 0 20px ;
     position: absolute;
     width: 100%;
     z-index: 1000;
@@ -50,13 +45,14 @@ ul {
 
 .navbar .logo {
     display: flex;
-    align-items: center;
+    align-items: top right;
     font-size: 24px;
     font-weight: 700;
 }
 
 .navbar .logo img {
-    height: 40px;
+    height: 29.46px;
+    width: 167.02px;
     margin-right: 10px;
 }
 
@@ -65,7 +61,9 @@ ul {
 }
 
 .navbar .nav-links ul li {
-    margin-left: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .navbar .nav-links ul li a {
@@ -82,7 +80,8 @@ ul {
 /* Hero Section (was header-section in your HTML) */
 .hero-section {
     position: relative;
-    height: 100vh;
+    height: 1055;
+    width: 1448.15;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,7 +204,7 @@ ul {
 
 /* Testimonial Section */
 .testimonial-section { /* Corrected class name */
-    background-color: #8E00FF;
+    background-color: #;
     padding: 80px 0;
     color: #fff;
     text-align: center;
