@@ -1,0 +1,1 @@
+This project implements a fully functional, responsive web page for a "Headphones" product, built from scratch using only HTML and CSS. The goal was to replicate a given UI/UX design faithfully, focusing on best practices for accessibility and responsive design without relying on external CSS frameworks or JavaScript.
