@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'source-pro';
+    src: url(./source-sans-pro/SourceSansPro-Regular.otf);
+}
+    
+
+:root{
+    --text-color:#fff;
+    --primary-color:#ff6565;
+    --secondary-color:#071629;
+    --fs-lg:4.6rem;
+    --fs-md:3.2rem;
+    --fs-sm:1.6rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source-pro";
+    font-weight: 400;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+img{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+/* utilities */
+.container{
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+}
+.btn{
+padding: 1.2rem 3.2rem;
+text-transform: uppercase;
+font-size: 1.2rem;
+border-radius: 3rem;
+}
+.btn--cta{
+    background-color: var(--primary-color);
+}
+.icon-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-col{
+    flex: 0 0 20rem;
+    justify-self: center;
+}
+.section-head{
+    max-width: 65rem;
+    text-align: center;
+    margin: 0 auto 7rem auto;
+    color: var(--secondary-color);
+}
+.section-head h2{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.section-head p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* end of utilities */
+
+.hero{
+    min-height: 100vh;
+    background: url(./images/headphones_hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.navbar{
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+/* togglebtn */
+.logo-toggle-btn{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap:4rem;
+}
+.toggle-btn{
+     display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 35px;
+    cursor: pointer;
+}
+.toggle-btn .line{
+     height: 4px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: .5rem;
+    transform: all .4s;
+}
+.toggle-btn .line.middle{
+    width: 25px;
+}
+.toggle-btn.active.line.middle{
+    opacity: 0;
+}
+.toggle-btn.toggle-btn.active.line.top{
+    transform: translateY(10px) rotate(-45deg);
+}
+.toggle-btn.active.line.bottom{
+    transform: translateY(-10px) rotate(45deg);
+}
+.logo-toggle-btn{
+    width: 16rem;
+}
+.navbar-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.link{
+    font-size: 1.4rem;
+}
+.navbar-link-item.active a{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+/* hero  section */
+.hero-section{
+     max-width: 65rem;
+    width: 100%;
+    margin:15rem auto 0 auto;
+    text-align: center;
+    color: var(--text-color);
+}
+.hero-title{
+    font-weight: 700;
+    font-size: var(--fs-md);
+}
+.hero-sub-title{
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+.hero-desc{
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+/* End of Hero Section */
+
